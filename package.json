@@ -1,0 +1,10 @@
+{
+  "name": "tc-bookmarklet",
+  "description": "Bookmarklet for our timecard system",
+  "version": "0.0.1",
+  "homepage": "https://github.com/ryanhirsch/tc-bookmarklet",
+  "author": {
+    "name": "Ryan Hirsch",
+    "email": "ryan.hirsch@gmail.com"
+  }
+}
