@@ -6,5 +6,13 @@
   "author": {
     "name": "Ryan Hirsch",
     "email": "ryan.hirsch@gmail.com"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-bookmarklet-thingy": "~0.2.0",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-uglify": "~0.2.0",
+    "grunt-contrib-jshint": "~0.4.3",
+    "grunt-contrib-watch": "~0.3.1"
   }
 }
