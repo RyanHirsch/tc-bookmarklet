@@ -77,6 +77,13 @@ module.exports = function(grunt) {
         jshint: true,
         timestamp: true
       }
+    },
+    includereplace: {
+      dist: {
+        files: {
+          'dist/': '*.html'
+        }
+      }
     }
   });
 
@@ -87,6 +94,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-bookmarklet-thingy');
+  grunt.loadNpmTasks('grunt-include-replace');
 
   // Default task.
   grunt.registerTask('default', ['jshint', 'qunit', 'concat', 'uglify']);
